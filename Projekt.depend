@@ -5,7 +5,7 @@
 1621466570 c:\users\mprzy\onedrive\pulpit\kodydocodeblocksa\1projekt\include\postac.h
 	<iostream>
 
-1624140828 source:c:\users\mprzy\onedrive\pulpit\kodydocodeblocksa\1projekt\main.cpp
+1624299133 source:c:\users\mprzy\onedrive\pulpit\kodydocodeblocksa\1projekt\main.cpp
 	<SFML/Window.hpp>
 	<SFML/Graphics.hpp>
 	<iostream>
@@ -424,11 +424,11 @@
 	<SFML/Graphics/Drawable.hpp>
 	<SFML/Window/GlResource.hpp>
 
-1624138315 c:\users\mprzy\onedrive\pulpit\kodydocodeblocksa\1projekt\include\entity.h
+1624300332 c:\users\mprzy\onedrive\pulpit\kodydocodeblocksa\1projekt\include\entity.h
 	<SFML/Window.hpp>
 	<SFML/Graphics.hpp>
 
-1623850318 source:c:\users\mprzy\onedrive\pulpit\kodydocodeblocksa\1projekt\src\character.cpp
+1624285057 source:c:\users\mprzy\onedrive\pulpit\kodydocodeblocksa\1projekt\src\character.cpp
 	"Character.h"
 
 1623848349 c:\users\mprzy\onedrive\pulpit\kodydocodeblocksa\1projekt\include\character.h
@@ -437,7 +437,7 @@
 1624140828 source:c:\users\mprzy\onedrive\pulpit\kodydocodeblocksa\1projekt\src\room.cpp
 	"Room.h"
 
-1624141116 c:\users\mprzy\onedrive\pulpit\kodydocodeblocksa\1projekt\include\room.h
+1624288691 c:\users\mprzy\onedrive\pulpit\kodydocodeblocksa\1projekt\include\room.h
 	<Enemy.h>
 	<SFML/Window.hpp>
 	<SFML/Graphics.hpp>
@@ -445,10 +445,10 @@
 	<iostream>
 	<vector>
 
-1624136655 source:c:\users\mprzy\onedrive\pulpit\kodydocodeblocksa\1projekt\src\enemy.cpp
+1624288478 source:c:\users\mprzy\onedrive\pulpit\kodydocodeblocksa\1projekt\src\enemy.cpp
 	"Enemy.h"
 
-1621536010 c:\users\mprzy\onedrive\pulpit\kodydocodeblocksa\1projekt\include\enemy.h
+1624286967 c:\users\mprzy\onedrive\pulpit\kodydocodeblocksa\1projekt\include\enemy.h
 	<Entity.h>
 
 1623846914 source:c:\users\mprzy\onedrive\pulpit\kodydocodeblocksa\1projekt\src\cegla.cpp
