@@ -5,7 +5,7 @@
 1621466570 c:\users\mprzy\onedrive\pulpit\kodydocodeblocksa\1projekt\include\postac.h
 	<iostream>
 
-1624299133 source:c:\users\mprzy\onedrive\pulpit\kodydocodeblocksa\1projekt\main.cpp
+1624907014 source:c:\users\mprzy\onedrive\pulpit\kodydocodeblocksa\1projekt\main.cpp
 	<SFML/Window.hpp>
 	<SFML/Graphics.hpp>
 	<iostream>
@@ -424,11 +424,11 @@
 	<SFML/Graphics/Drawable.hpp>
 	<SFML/Window/GlResource.hpp>
 
-1624300332 c:\users\mprzy\onedrive\pulpit\kodydocodeblocksa\1projekt\include\entity.h
+1624881124 c:\users\mprzy\onedrive\pulpit\kodydocodeblocksa\1projekt\include\entity.h
 	<SFML/Window.hpp>
 	<SFML/Graphics.hpp>
 
-1624285057 source:c:\users\mprzy\onedrive\pulpit\kodydocodeblocksa\1projekt\src\character.cpp
+1624881155 source:c:\users\mprzy\onedrive\pulpit\kodydocodeblocksa\1projekt\src\character.cpp
 	"Character.h"
 
 1623848349 c:\users\mprzy\onedrive\pulpit\kodydocodeblocksa\1projekt\include\character.h
@@ -445,7 +445,7 @@
 	<iostream>
 	<vector>
 
-1624288478 source:c:\users\mprzy\onedrive\pulpit\kodydocodeblocksa\1projekt\src\enemy.cpp
+1624875436 source:c:\users\mprzy\onedrive\pulpit\kodydocodeblocksa\1projekt\src\enemy.cpp
 	"Enemy.h"
 
 1624286967 c:\users\mprzy\onedrive\pulpit\kodydocodeblocksa\1projekt\include\enemy.h
