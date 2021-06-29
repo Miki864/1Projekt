@@ -110,6 +110,12 @@ int main(){
         gameover.setPosition(85,100);
         gameover.setString("Game Over!");
 
+    sf::Text instruction;
+        instruction.setFont(font);
+        instruction.setCharacterSize(30);
+        instruction.setPosition(50,100);
+        instruction.setString("Moving:\n   A - move left\n   D - move right\n   W - move up\n   S - move down\nFight:\n   A - attack\n   H - healing\n   U - run to last room\n\n Press W to continue.");
+
     int activeroom=4;
     int previousroom=0;
     int defeated=0;
@@ -120,15 +126,29 @@ int main(){
     bool isfighting=false;
     bool playersturn=true;
     bool isinfo=false;
+
+    std::string okno="Instruction";
+
     sf::RenderWindow window(sf::VideoMode(600,700),"Brightest Dungeon",sf::Style::Close|sf::Style::Titlebar);
 
 
 
     while (window.isOpen()) {
 
-
-
         window.clear(sf::Color::Black);
+
+        if(okno=="Instruction"){
+            sf::Event event;
+            while (window.pollEvent(event)) {
+                if (event.type==sf::Event::Closed){
+                    window.close();}
+            if(event.type==sf::Event::KeyPressed&&event.key.code==sf::Keyboard::W){okno="Game";}}
+                    window.draw(instruction);
+                    window.display();
+        }
+
+        if(okno=="Game"){
+
         mapa[activeroom].drawroom(window);
         window.draw(ziom);
 
@@ -193,6 +213,7 @@ int main(){
         window.draw(heroinfo);}
         window.display();
         if(isinfo){Sleep(1000);isinfo=false;heroinfo.setString("");enemyinfo.setString("");}
+        }//end of game
         }//end of while(window.is_open)
 
     return 0;}
